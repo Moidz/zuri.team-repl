@@ -127,3 +127,45 @@ header a:visited{
         width: 140px;
     }
 }
+
+/* SECTION 3 */
+.section3{
+    padding-top: 40px;
+    letter-spacing: 0.00938em;
+    color: #1b1a20!important;
+    font-size: 24px;
+    /* height: 209px; */
+    width: 90%;
+    margin: 0px auto;
+}
+.section3-flex{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.section3-flex div{
+    width: 33.3%;
+}
+.section3-1{
+    font-weight: 500;
+    text-shadow: 0px 0px 1px #585757;
+    opacity: 0.9;
+    letter-spacing:0.01em;
+}
+.section3-2{
+    display: flex;
+    justify-content: center;
+}
+.section3-3{
+    text-align: right;
+    font-weight: 400;
+    /* color: #585757; */
+    opacity:0.9;
+}
+
+.section3 a:link, .section3 a:visited{
+    color: #43b97f;
+}
+.section3 hr{
+    border: 1px solid #0000001f;
+}
