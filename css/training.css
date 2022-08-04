@@ -169,3 +169,30 @@ header a:visited{
 .section3 hr{
     border: 1px solid #0000001f;
 }
+
+/* RESPONSIVENESS FOR SECTION 3 */
+@media screen and (max-width: 900px){
+    .section3-flex{
+        flex-direction: column;
+    }
+    .section3-flex div{
+        width: 100%;
+    }
+    .section3-1{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .section3-2{
+        padding-top: 16px;
+    }
+    .section3-3{
+        padding-top: 46px;
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width: 768px){
+    .section3-3{
+        text-align: center;
+    }
+}
