@@ -550,3 +550,11 @@ header a:visited {
   flex-wrap: wrap;
   gap: 24px;
 }
+/* .section5-dots{
+  padding: 35px;
+} */
+.section5-dots img{
+  padding: 35px;
+  width: 214px;
+  height: 172px;
+}
