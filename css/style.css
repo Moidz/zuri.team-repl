@@ -3,9 +3,6 @@
     src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
 }
 
-html{
-    scroll-behavior: smooth;
-}
 *{
     margin: 0;
     padding: 0;
