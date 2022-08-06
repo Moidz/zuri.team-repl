@@ -1088,6 +1088,7 @@ footer{
 .footer-div2{
   display: flex;
   justify-content: right;
+  gap: 20px;
   text-align: right;
 }
 
