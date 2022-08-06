@@ -50,6 +50,9 @@ header a:visited {
   color: #585757;
 }
 
+a:link{
+  text-decoration: none;
+}
 .enrol img {
   width: 55px;
   z-index: 3;
@@ -69,7 +72,7 @@ header a:visited {
   z-index: 2;
   opacity: 1;
 }
-.enrol-btn {
+.enrol-btn{
   padding: 10px 32px !important;
   background: #e7332b;
   border-radius: 71px;
@@ -652,7 +655,6 @@ main{
     padding-top: 70px;
     width: 90%;
     margin: 0px auto;
-    padding-bottom: 90px;
 }
 .section6-intro{
     width: 50%;
@@ -668,6 +670,7 @@ main{
 
 .section6-grid{
     gap: 24px;
+    margin-bottom: 50px;
 }
 .grid-items2{
     margin-top: 24px;
@@ -735,6 +738,119 @@ main{
   font-size: 18px;
 }
 }
+.section6 .btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+/* SECTION 7 */
+.section7{
+  padding-top: 40px;
+  width: 90%;
+  margin: 0px auto;
+  border-bottom: 1px solid #0000001f;
+}
+.section7 .wire{
+  margin-left: 10%;
+}
+.section7 .intro{
+  text-align: center;
+  margin-top: -60px;
+  padding-bottom: 100px;
+}
+.accordion{
+  margin: 0px auto 50px;
+  width: 85%;
+  border: 1px solid #ccc;
+}
+details{
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+details p{
+  font-size: 15px;
+  font-family: 'Times New Roman';
+}
+summary{
+  font-size: 18px !important;
+  padding: 10px 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+details > summary{
+  list-style-type: none;
+}
+details[open] > summary span{
+  animation: rotate 0.5s forwards;
+}
+details:last-of-type{
+  border-bottom: none;
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-180deg);
+  }
+}
+summary span{
+  font-size: 24px !important;
+}
+.tweet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.tweet p{
+  font-weight: 400;
+}
+.tweet-btn{
+  display: flex;
+  align-items: center;
+  width: 190px;
+  padding: 4px;
+  border-radius: 71px;
+  background-color: #e7332b;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.tweet-btn img{
+  width: 23%;
+}
+/* RESPONSIVENESS FOR SECTION 7 */
+@media screen and (max-width: 768px){
+  .section7 .wire{
+    margin-left: 10%;
+  }
+  .section7 .intro{
+    margin-top: -30px;
+  }
+  .wire img{
+    width: 22%;
+  }
+}
+@media screen and (max-width: 425px){
+  .section7{
+    width: 90%;
+  }
+  .accordion{
+    width: 100%;
+  }
+  .tweet{
+    flex-direction: column;
+  }
+}
+
 /* SECTION 8 */
 .section8{
   width: 90%;
@@ -818,6 +934,10 @@ ul{
 @media screen and (max-width: 1024px) {
   .section8-flex{
     width: 100%;
+  }
+  .section8-flexitem{
+    width: 100%;
+    margin: 0px auto;
   }
   .move{
     display: none;
