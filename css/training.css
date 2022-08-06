@@ -197,7 +197,9 @@ header a:visited {
 .section1-flex3 {
   width: 28.4%;
 }
-
+main{
+  overflow-x: hidden;
+}
 /* RESPONSIVENESS FOR SECTION 1 */
 @media screen and (max-width: 1024px) {
   .section1 {
@@ -732,4 +734,176 @@ header a:visited {
 .section6 .small-p{
   font-size: 18px;
 }
+}
+/* SECTION 8 */
+.section8{
+  width: 90%;
+  margin: 0px auto;
+}
+.section8 .intro{
+  text-align: center;
+}
+.section8 .large-p{
+  padding-bottom: 20px;
+}
+.section8 .intro p:nth-of-type(3) {
+  color: #333333;
+  font-size: 18px !important;
+  padding-bottom: 60px !important;
+  font-weight: 400;
+}
+.section8-flex{
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  justify-content: space-between;
+  gap: 24px;
+  position: relative;
+}
+.move{
+  position: absolute;
+  top: 40%;
+  left: -110px;
+}
+.section8-flexitem{
+  position: relative;
+  background-color: #1b1a20;
+  padding: 64px;
+  border-radius: 65px !important;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: 0px 15px 60px #e7342b63;
+}
+.section8-flexitem p{
+  margin-bottom: 18px;
+}
+.section8 li{
+  font-size: 15px !important;
+}
+ul{
+  margin-left: 20px;
+}
+.time-bg{
+  position: relative;
+}
+.time-bg img{
+  position: absolute;
+  bottom: 0px;
+  right: -10px;
+}
+.fitem2 .time-bg img{
+  bottom: -40px;
+}
+.time{
+  font-size: 35px;
+  font-weight: 700;
+}
+.nested-list li{
+  list-style-type: none;
+}
+.fitem2 li{
+  padding-bottom: 18px;
+}
+
+.list{
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.circle{
+  position: absolute;
+  bottom: -50px;
+  right: -60px;
+  z-index: -1;
+}
+@media screen and (max-width: 1024px) {
+  .section8-flex{
+    width: 100%;
+  }
+  .move{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section8-flex{
+    flex-direction: column;
+  }
+  .circle2{
+    display: none;
+  }
+}
+
+/* SECTION 9 */
+.section9{
+  width: 90%;
+  margin: 70px auto 0px;
+}
+
+.circle2{
+  padding-top: 49px;
+}
+.large-card{
+  background-color: #e7332b;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 70px;
+  color: #fff;
+  position: relative;
+  margin-top: 20px;
+}
+.large-card p:nth-of-type(1){
+  font-size: 18px;
+  font-weight: 400;
+}
+.large-card p:nth-of-type(2){
+  font-size: 55px;
+  font-weight: 500;
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px 0px 40px;
+}
+.section9 .enrol-btn{
+  color: #e7332b;
+  background-color: #fff;
+}
+.edge-circle{
+  display: flex;
+  justify-content: right;
+}
+.edges img{
+  position: absolute;
+  width: 13%;
+}
+.edge1{
+  top: 0;
+  right: 0;
+}
+.edge2{
+  top: 80px;
+  left: 13%;
+}
+.edge3{
+  bottom: 0;
+  left: 0;
+}
+
+/* RESPONSIVENESS FOR SECTION 9 */
+@media screen and (max-width: 1024px){
+  .large-card p:nth-of-type(2){
+    font-size: 46px;
+    font-weight: 600;
+  }
+  .edges img{
+    width: 25%;
+  }
+  .edge2{
+    width: 13% !important;
+  }
+  .edge-circle img{
+    width: 20%;
+  }
+}
+@media screen and (max-width: 425px){
+  .large-card p:nth-of-type(2){
+    font-size: 26px;
+  }
 }
