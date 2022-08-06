@@ -18,6 +18,7 @@ header{
     justify-content: space-between;
     height: fit-content;
     background-color: #fff;
+    z-index: 10;
 }
 
 header a:link, a:visited{
@@ -91,6 +92,7 @@ span{
 }
 .flex-2{
     width: 40%;
+    position: relative;
 }
 .flex-1 p:nth-of-type(1){
     font-size: 40px;
@@ -123,3 +125,80 @@ span{
 .grey-btn{
     background-color: #585858 !important;
 }
+.right-curve{
+    position: absolute;
+    right: -22%;
+    top: 250px;
+    z-index: -1;
+}
+
+/* RESPONSIVENESS FOR SECTION 1 */
+
+@media screen and (max-width: 1024px){
+    .section1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .flex-1{
+        width: 80%;
+    }
+    .flex-1 p:nth-of-type(2){
+        margin: 0px 40px;
+        padding-right: 0;
+    }
+    .btn{
+        width: fit-content;
+        margin: 0px auto 50px;
+    }
+    .section1-img{
+        width: 65%;
+    }
+    .flex-2{
+        width: 100%;
+    }
+    .right-curve{
+        position: absolute;
+        right: -8%;
+        width: 32%;
+        top: 350px;
+        z-index: -1;
+    }
+}
+@media screen and (max-width: 768px){
+    .right-curve{
+        display: none;
+    }
+    .line{
+        padding-right: 0px;
+        margin-top: -25px;
+        margin-right: -10px;
+    }
+}
+@media screen and (max-width: 425px){
+    .section1{
+        padding-top: 140px;
+    }
+    .flex-1{
+        width: 100%;
+    }
+    .flex-1 p:nth-of-type(2){
+        margin: 0px 20px;
+    }
+    .line{
+        padding-right: 0px;
+        margin-top: -15px;
+        margin-right: 20px;
+    }
+    .section1-img{
+        width: 100%;
+    }
+    .flex-1 p:nth-of-type(2){
+        font-size: 16px;
+    }
+    .section1 .hire-btn{
+        padding: 11px 32px;
+    }
+}
+
+/* SECTION 2 */
