@@ -1,4 +1,4 @@
-3@font-face {
+@font-face {
     font-family: Averta;
     src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
 }
@@ -18,7 +18,7 @@ body{
 
 /* SECTION 1 */
 .section1{
-    background-image: url("/img/hero-bg.svg");
+    background-image: url("./img/hero-bg.svg");
     height: 800px;
     background-position: center;
     background-size: cover;
