@@ -740,8 +740,14 @@ main{
 }
 @media screen and (max-width:375px){
   .section6-grid{
-    margin-left: -20px;
     transform: scale(0.9, 0.95);
+  }
+  .grid-items2{
+    padding: 30px 20px;
+    margin: 24px auto 0px;
+  }
+  .grid-items2 div{
+    gap: 6px;
   }
 }
 .section6 .btn{
