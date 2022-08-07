@@ -18,7 +18,7 @@ body{
 
 /* SECTION 1 */
 .section1{
-    background-image: url('/img/hero-bg.svg');
+    background-image: url('img/hero-bg.svg');
     height: 800px;
     background-position: center;
     background-size: cover;
