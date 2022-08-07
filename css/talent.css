@@ -207,7 +207,7 @@ span{
 
 /* SECTION 2 */
 .section2{
-    background-image: url("img/world-bg.png");
+    background-image: url("../img/world-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
