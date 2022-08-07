@@ -8,7 +8,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    font-family: Graphik;
+    font-family: "Graphik", sans-serif;
     letter-spacing: 0.00938em;
 }
 header{
